@@ -483,7 +483,7 @@ class TrafficControl:
                             "RTNETLINK answers: Invalid argument",  # debian/ubuntu
                             "RTNETLINK answers: No such file or directory",  # debian/ubuntu
                             "Error: Cannot find specified qdisc on specified device",  # RHEL/fedora
-                            "Error: Invalid handle.",  # ignore this error the default direction
+                            "Error: Invalid handle.",  # ignore this error for the default direction
                         ]
                     )
                 ),
