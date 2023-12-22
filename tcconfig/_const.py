@@ -43,7 +43,7 @@ class Tc:
         DIRECTION = "direction"
         FILTER_ID = "filter_id"
         CLASS_ID = "classid"
-        DST_NETWORK = "dst-network"
+        DST_NETWORK = "dst_network"
         DST_PORT = "dst-port"
         FLOW_ID = "flowid"
         HANDLE = "handle"
