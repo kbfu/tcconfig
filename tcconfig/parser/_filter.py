@@ -113,6 +113,7 @@ class TcFilterParser(AbstractParser):
 
                 if tc_filter.flowid:
                     logger.debug("store filter: {}".format(tc_filter))
+                    logger.debug("116: {}".format(tc_filter.filter_id))
                     Filter.insert(tc_filter)
                     self._clear()
 
@@ -137,6 +138,7 @@ class TcFilterParser(AbstractParser):
                 logger.debug("failed to parse filter: {}".format(line))
 
         if self.__flow_id:
+            logger.debug("141: {}".format(self.__get_filter().filter_id))
             Filter.insert(self.__get_filter())
 
     def parse_incoming_device(self, text):
