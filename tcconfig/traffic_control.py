@@ -484,7 +484,6 @@ class TrafficControl:
                             "RTNETLINK answers: No such file or directory",  # debian/ubuntu
                             "Error: Cannot find specified qdisc on specified device",  # RHEL/fedora
                             "Error: Invalid handle.",  # ignore this error for the default direction
-                            "Error: Exclusivity flag on, cannot modify."  # ignore this error for adding the port rule
                         ]
                     )
                 ),
